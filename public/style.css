@@ -24,7 +24,7 @@
 
 /* Project Highlights */
 #projects-container {
-  height: 80vh;
+  height: auto;
   border: 3px red solid;
 }
 
@@ -65,5 +65,11 @@ footer {
 
   body {
     position: relative;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .project {
+    flex-direction: column-reverse;
   }
 }
