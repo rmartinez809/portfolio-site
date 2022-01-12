@@ -18,6 +18,9 @@
   height: 60vh;
   border: 3px blue solid;
 }
+#banner-container p {
+  width: 35%;
+}
 
 /* Project Highlights */
 #projects-container {
