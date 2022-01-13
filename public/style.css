@@ -15,7 +15,7 @@
 
 /* Banner Container*/
 #banner-container {
-  height: 60vh;
+  height: 50vh;
   border: 3px blue solid;
 }
 #banner-container p {
@@ -53,6 +53,19 @@
 #contact-container {
   height: 60vh;
   border: 3px purple solid;
+  display: flex;
+}
+
+form label {
+  display: block;
+}
+
+form textarea {
+  height: 200px;
+}
+
+form button {
+  display: block;
 }
 
 /* Footer */
@@ -82,5 +95,9 @@ footer {
 @media screen and (max-width: 930px) {
   .project {
     flex-direction: column-reverse;
+  }
+
+  #contact-container {
+    flex-direction: column;
   }
 }

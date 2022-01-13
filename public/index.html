@@ -16,30 +16,26 @@
             <section id="intro">Hi, I'm Ricardo.</section>
             <h2>I'm a software developer and artist</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut beatae molestiae, tempora deleniti enim rem doloremque architecto quia eius similique.</p>
-            <br/>
             <a href="#projects-container">VIEW WORK</a>
             <a href="#contact-container">CONTACT ME</a>
         </div>
         <!--PROJECT HIGHLIGHTS SECTION-->
         <div id="projects-container">
             <h1>Project Highlights</h1>
-            <br />
+            <!-- Project 01 -->
                 <section class="project">
                     <section class="project-details">
                         <h2 class="project-title">Project Title</h2>
-                        <br />
                         <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam quasi animi necessitatibus similique neque. Alias mollitia, aut enim excepturi minima rerum, eos dignissimos suscipit doloremque blanditiis expedita dolorem. Laudantium vitae atque facilis nisi tempore quisquam nostrum, amet vel laboriosam dicta eligendi rerum saepe in debitis, sit quas quasi ad.</p>
                         <a class="deployed-link" href="">deployed-link</a>
                         <a class="github-link" href="">github-link</a>
                     </section>
                     <img src="http://via.placeholder.com/640x360">
                 </section>
-                <br />
-                <br />
+                <!-- Project 02 -->
                 <section class="project">
                     <section class="project-details">
                         <h2 class="project-title">Project Title</h2>
-                        <br />
                         <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam quasi animi necessitatibus similique neque. Alias mollitia, aut enim excepturi minima rerum, eos dignissimos suscipit doloremque blanditiis expedita dolorem. Laudantium vitae atque facilis nisi tempore quisquam nostrum, amet vel laboriosam dicta eligendi rerum saepe in debitis, sit quas quasi ad.</p>
                         <a class="deployed-link" href="">deployed-link</a>
                         <a class="github-link" href="">github-link</a>
@@ -50,13 +46,9 @@
         <!--ABOUT ME SECTION-->
         <div id="about-container">
             <h2>About Me</h2>
-            <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam exercitationem nesciunt omnis incidunt, cumque voluptas aut tenetur cum temporibus sequi, eaque voluptatem quibusdam ipsum quisquam magnam explicabo nulla facilis optio quas! Aliquid quibusdam, officiis voluptas dolorem veniam minus fugiat quasi. Esse fugiat iusto nulla optio perferendis necessitatibus placeat ducimus quo eaque officia! Quaerat cumque, nisi unde ullam, ea quia quis fuga dolorem, error neque id nesciunt laborum dolores eveniet tempora dicta modi numquam. Deleniti, animi!</p>
-            <br />
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quod, fuga commodi quae eligendi, repellendus quos id ex voluptatem eius qui porro quam suscipit deleniti sint excepturi cum adipisci quo, voluptas soluta. Ipsa corporis dolor dicta pariatur quo. Ipsam suscipit ut maxime sed nobis quia, corporis cumque beatae, doloremque quaerat optio, accusamus cupiditate. Vero repellat sed quidem esse, rem necessitatibus dolore quibusdam atque omnis fuga provident, earum praesentium perferendis voluptatibus quis modi ratione facilis libero.</p>
-            <br />
             <p>Technologies I use:</p>
-            <br />
             <section id="tech-used">
                 <span>JavaScript</span>
                 <span>React</span>
@@ -70,11 +62,29 @@
                 <span>Heroku</span>
                 <span>Postman</span>
             </section>
-            <br />
             <a href="">DOWNLOAD RESUME</a>
         </div>
         <!--CONTACT ME SECTION-->
-        <div id="contact-container">Contact</div>
+        <div id="contact-container">
+            <section id="get-in-touch">
+                <h2>Get In Touch</h2>
+                <p>Let's connect, chat about your project, or simply stay in touch</p>
+                <h5>Email Me</h5>
+                <a href="mailto:RicardoMartinez.Denver@gmail.com" title="My Email Address">RicardoMartinez.Denver@gmail.com</a>
+                <h5>Socials</h5>
+                <a href="">LinkedIn</a>
+                <a href="">GitHub</a>
+            </section>
+            <form action="" accept-charset="utf-8" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Juan del Pueblo">
+                <label for="email">Email Address</label>
+                <input type="email" id="email-address" name="email" placeholder="you@yourdomain.com">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="How can I help?"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
         <footer>Footer</footer>
     </div>
     <script src="../src/index.js"></script>
