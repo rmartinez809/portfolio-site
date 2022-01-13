@@ -72,6 +72,12 @@ form button {
 footer {
   height: auto;
   border: 3px cyan solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 /* Media Queries */
