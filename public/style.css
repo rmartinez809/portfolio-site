@@ -66,7 +66,7 @@
 }
 
 #about-container h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #about-container p {
@@ -97,16 +97,51 @@
   display: flex;
 }
 
+#contact-header {
+  margin-bottom: 2rem;
+}
+
+#get-in-touch {
+  margin-right: 10rem;
+}
+
+#get-in-touch p {
+  margin-bottom: 2rem;
+}
+
+#get-in-touch h5 {
+  margin-bottom: 0.5rem;
+}
+
+#get-in-touch a {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 800px;
+}
+
 form label {
   display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  margin-bottom: 1.5rem;
 }
 
 form textarea {
   height: 200px;
+  margin-bottom: 2rem;
 }
 
 form button {
   display: block;
+}
+
+.form-width {
+  width: 50rem;
 }
 
 /*========== Footer ==========*/
@@ -115,6 +150,7 @@ footer {
   height: auto;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 footer a {
@@ -140,7 +176,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1024px) {
   .project {
     flex-direction: column-reverse;
   }
@@ -151,5 +187,9 @@ footer a {
 
   #contact-container {
     flex-direction: column;
+  }
+
+  .form-width {
+    width: 25rem;
   }
 }
