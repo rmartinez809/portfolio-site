@@ -6,36 +6,46 @@
   box-sizing: border-box;
 }
 
-/* Main Container */
+/*========== Main Container ==========*/
 #main-container {
   height: 100vh;
   width: 80vw;
   margin: 0 auto;
 }
 
-/* Banner Container*/
+/*========== Hero Container ==========*/
 #banner-container {
+  /* border: 3px blue solid; */
   height: 50vh;
-  border: 3px blue solid;
-}
-#banner-container p {
-  width: 35%;
 }
 
-/* Project Highlights */
+#banner-container h1 {
+  width: 50%;
+  margin-top: 7rem;
+}
+
+#hero-logo {
+  margin-top: 3rem;
+}
+
+#links {
+  margin-top: 4rem;
+}
+
+/*========== Project Highlights ==========*/
 #projects-container {
+  /* border: 3px red solid; */
   height: auto;
-  border: 3px red solid;
 }
 
 .project {
   display: flex;
 }
 
-/* About section */
+/*========== About section ==========*/
 #about-container {
+  /* border: 3px green solid; */
   height: 60vh;
-  border: 3px green solid;
 }
 
 #about-container p {
@@ -49,10 +59,10 @@
   width: 15%;
 }
 
-/* Contact section */
+/*========== Contact section ==========*/
 #contact-container {
+  /* border: 3px purple solid; */
   height: 60vh;
-  border: 3px purple solid;
   display: flex;
 }
 
@@ -68,10 +78,10 @@ form button {
   display: block;
 }
 
-/* Footer */
+/*========== Footer ==========*/
 footer {
+  /* border: 3px cyan solid; */
   height: auto;
-  border: 3px cyan solid;
   display: flex;
   justify-content: space-between;
 }
@@ -80,12 +90,13 @@ footer a {
   text-decoration: none;
 }
 
-/* Media Queries */
+/*========== Media Queries ==========*/
 @media screen and (max-width: 1440px) {
   #main-container {
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
+    padding: 2rem 5rem;
   }
 
   html,
