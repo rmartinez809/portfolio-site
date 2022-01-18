@@ -75,6 +75,7 @@ body {
 #about-container {
   /* border: 3px green solid; */
   height: max-content;
+  padding-top: 4rem;
 }
 
 #about-container h2 {
@@ -109,7 +110,7 @@ body {
 
 #contact-header {
   margin-bottom: 2rem;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 
 #get-in-touch {
@@ -161,7 +162,9 @@ footer {
   height: auto;
   display: flex;
   justify-content: space-between;
+  padding-top: 5rem;
   padding-bottom: 1rem;
+  font-size: small;
 }
 
 footer a {
