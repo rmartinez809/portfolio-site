@@ -6,14 +6,21 @@
   box-sizing: border-box;
 }
 
+a,
 h1,
 h2,
-a {
+h5 {
   font-family: "Jost", sans-serif;
 }
 
 body {
   font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  font-weight: 700;
 }
 
 /*========== Main Container ==========*/
@@ -31,8 +38,9 @@ body {
 }
 
 #banner-container h1 {
-  width: 50%;
+  width: 75%;
   margin-top: 7rem;
+  font-size: 3rem;
 }
 
 #hero-logo {
@@ -191,6 +199,10 @@ footer a {
 }
 
 @media screen and (max-width: 1024px) {
+  #banner-container h1 {
+    width: 90%;
+  }
+
   #about-container p {
     width: 100%;
   }
@@ -227,6 +239,7 @@ footer a {
 
   #banner-container h1 {
     width: 90%;
+    font-size: 2.5rem;
   }
 
   #links {
