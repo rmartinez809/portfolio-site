@@ -211,7 +211,12 @@ footer a {
   }
 
   #banner-container h1 {
-    width: 100%;
+    width: 90%;
+  }
+
+  #links {
+    display: flex;
+    flex-flow: column wrap;
   }
 
   footer {
