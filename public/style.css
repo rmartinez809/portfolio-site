@@ -17,6 +17,7 @@
 #banner-container {
   /* border: 3px blue solid; */
   height: max-content;
+  padding-bottom: 10rem;
 }
 
 #banner-container h1 {
@@ -91,8 +92,9 @@
 /*========== Contact section ==========*/
 #contact-container {
   /* border: 3px purple solid; */
-  height: 60vh;
+  height: auto;
   display: flex;
+  padding-bottom: 2rem;
 }
 
 #contact-header {
@@ -205,7 +207,7 @@ footer a {
 }
 
 /*========== Mobile ==========*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
   #main-container {
     padding: 0.5rem;
   }
@@ -220,7 +222,7 @@ footer a {
   }
 
   footer {
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     padding-top: 1rem;
     text-align: center;
