@@ -54,6 +54,19 @@ h5 {
   margin-bottom: 4rem;
 }
 
+#banner-container a {
+  margin-right: 2rem;
+  color: black;
+}
+
+.link-btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 300px;
+}
+
 /*========== Project Highlights ==========*/
 #projects-container {
   /* border: 3px red solid; */
