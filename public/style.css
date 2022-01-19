@@ -189,7 +189,8 @@ form button {
 }
 
 form input,
-textarea {
+textarea,
+button {
   padding: 0.5rem 1rem;
   border: 2px solid black;
   border-radius: 2px;
