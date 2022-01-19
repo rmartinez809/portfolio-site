@@ -15,6 +15,23 @@ h5 {
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3345a6;
+}
+
+#banner-container a:hover,
+#about-container a:hover {
+  color: #3345a6;
+  border: 2px solid #3345a6;
 }
 
 h1,
@@ -23,18 +40,18 @@ h5 {
   font-weight: 700;
 }
 
-a {
-  color: black;
-}
-
 .link-btn {
   text-decoration: none;
   padding: 1rem 2rem;
   display: inline-block;
-  border: 2px solid black;
+  border: 2px solid #ffffff;
   border-radius: 300px;
   text-align: center;
   width: max-content;
+}
+
+.blue03 {
+  color: #3345a6;
 }
 
 /*========== Main Container ==========*/
@@ -61,6 +78,7 @@ a {
   margin-top: 3rem;
   width: 2rem;
   height: 2rem;
+  font-weight: bold;
 }
 
 #links {
@@ -198,8 +216,19 @@ form input,
 textarea,
 button {
   padding: 0.5rem 1rem;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 2px;
+}
+
+form input:focus,
+textarea:focus {
+  border: 3px solid #3345a6;
+  outline: none;
+}
+
+button:hover {
+  border: 3px solid #3345a6;
+  color: #3345a6;
 }
 
 /*========== Footer ==========*/
