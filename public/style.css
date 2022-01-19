@@ -23,6 +23,20 @@ h5 {
   font-weight: 700;
 }
 
+a {
+  color: black;
+}
+
+.link-btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 300px;
+  text-align: center;
+  width: max-content;
+}
+
 /*========== Main Container ==========*/
 #main-container {
   height: 100vh;
@@ -54,6 +68,10 @@ h5 {
   margin-bottom: 4rem;
 }
 
+#banner-container a {
+  margin-right: 2rem;
+}
+
 /*========== Project Highlights ==========*/
 #projects-container {
   /* border: 3px red solid; */
@@ -79,6 +97,10 @@ h5 {
 .project p {
   margin-bottom: 0.5rem;
   width: 85%;
+}
+
+.project a {
+  margin-right: 1rem;
 }
 
 /*========== About section ==========*/
@@ -138,6 +160,12 @@ h5 {
 #get-in-touch a {
   display: inline-block;
   margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+#get-in-touch img {
+  width: 2rem;
+  height: 2rem;
 }
 
 form {
@@ -164,6 +192,14 @@ form button {
 
 .form-width {
   width: 100%;
+}
+
+form input,
+textarea,
+button {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 2px;
 }
 
 /*========== Footer ==========*/
@@ -247,6 +283,14 @@ footer a {
   #links {
     display: flex;
     flex-flow: column wrap;
+  }
+
+  #links a {
+    margin-bottom: 1rem;
+  }
+
+  #download-cv {
+    font-size: 0.75rem;
   }
 
   footer {
