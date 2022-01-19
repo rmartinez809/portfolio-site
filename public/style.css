@@ -188,6 +188,13 @@ form button {
   width: 100%;
 }
 
+form input,
+textarea {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
 /*========== Footer ==========*/
 footer {
   /* border: 3px cyan solid; */
@@ -273,6 +280,10 @@ footer a {
 
   #links a {
     margin-bottom: 1rem;
+  }
+
+  #download-cv {
+    font-size: 0.75rem;
   }
 
   footer {
