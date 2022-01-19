@@ -23,6 +23,20 @@ h5 {
   font-weight: 700;
 }
 
+a {
+  color: black;
+}
+
+.link-btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 300px;
+  text-align: center;
+  width: max-content;
+}
+
 /*========== Main Container ==========*/
 #main-container {
   height: 100vh;
@@ -56,15 +70,6 @@ h5 {
 
 #banner-container a {
   margin-right: 2rem;
-  color: black;
-}
-
-.link-btn {
-  text-decoration: none;
-  padding: 1rem 2rem;
-  display: inline-block;
-  border: 2px solid black;
-  border-radius: 300px;
 }
 
 /*========== Project Highlights ==========*/
@@ -92,6 +97,10 @@ h5 {
 .project p {
   margin-bottom: 0.5rem;
   width: 85%;
+}
+
+.project a {
+  margin-right: 1rem;
 }
 
 /*========== About section ==========*/
@@ -260,6 +269,10 @@ footer a {
   #links {
     display: flex;
     flex-flow: column wrap;
+  }
+
+  #links a {
+    margin-bottom: 1rem;
   }
 
   footer {
