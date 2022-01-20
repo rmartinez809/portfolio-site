@@ -1,8 +1,8 @@
-//when scrolling, trigger the scroll-indicator progress bar
+// when scrolling, trigger the scroll-indicator progress bar
 window.onscroll = function() {scrollFunction()};
 
 const scrollFunction = () => {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var winScroll = window.pageYOffset;
 
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
@@ -11,3 +11,9 @@ const scrollFunction = () => {
 
     console.log("SCROLLED: ", scrolled);
 }
+
+// window.onload = function () {
+//     window.onscroll = function () {
+//         console.log("SCROLLED!");
+//     }
+// }
