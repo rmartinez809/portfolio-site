@@ -11,9 +11,3 @@ const scrollFunction = () => {
 
     console.log("SCROLLED: ", scrolled);
 }
-
-// window.onload = function () {
-//     window.onscroll = function () {
-//         console.log("SCROLLED!");
-//     }
-// }

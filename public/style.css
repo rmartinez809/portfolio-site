@@ -76,7 +76,13 @@ h5 {
 #progress-bar-indicator {
   height: 0.25rem;
   width: 0%;
-  background-color: #4158d9;
+  background: rgb(41, 52, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 52, 115, 1) 0%,
+    rgba(51, 69, 166, 1) 50%,
+    rgba(68, 94, 242, 1) 100%
+  );
 }
 
 /*========== Main Container ==========*/
