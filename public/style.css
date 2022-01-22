@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.75rem;
+}
+
 a:hover {
   color: #3345a6;
 }
