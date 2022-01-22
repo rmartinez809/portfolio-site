@@ -8,6 +8,4 @@ const scrollFunction = () => {
 
     var scrolled = (winScroll / height) * 100;
     document.getElementById("progress-bar-indicator").style.width = scrolled + "%";
-
-    console.log("SCROLLED: ", scrolled);
 }
