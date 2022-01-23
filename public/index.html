@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Lato&display=swap" rel="stylesheet">
     <title>Ricardo E. Martinez</title>
-</head>
-<body>
 
+</head>
+<body class="scroll-bar">
+    <div id="progress-bar-container">
+        <div id="progress-bar-indicator"></div>
+    </div>
+    <div id="main-container" class="scroll-bar">
+        <!--HERO SECTION-->
+        <div id="banner-container">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16" id="hero-logo">
+                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+              </svg>
+                <h1 id="intro"><span class="blue03">Hey, I'm Ricardo.</span><br />I'm a Software Developer with a passion for building interactive applications</h1>
+                <section id="links">
+                    <a href="#projects-container" class="link-btn">VIEW WORK</a>
+                    <a href="#contact-container" class="link-btn">CONTACT ME</a>
+                </section>
+        </div>
+        <!--PROJECT HIGHLIGHTS SECTION-->
+        <div id="projects-container">
+            <h1>Project Highlights</h1>
+            <!-- Project 01 -->
+                <section class="project">
+                    <section class="project-details">
+                        <h2 class="project-title">Fitness Trackr</h2>
+                        <p class="project-desc">A web app for recording workout routines and exercises. View a library of workouts, create custom routines, add your own exercises, and view details for each one. </p>
+                        <p class="built-with">Built with: React, Bootstrap CSS, Express</p>
+                        <a class="deployed-link" href="https://stupefied-kalam-3f3452.netlify.app/" target="blank">live link</a>
+                        <a class="github-link" href="https://github.com/rmartinez809/fitness-trackr" target="blank">github repo</a>
+                    </section>
+                    <img src="./assets/Fitness-Trackr-web.jpg">
+                </section>
+                <!-- Project 02 -->
+                <section class="project">
+                    <section class="project-details">
+                        <h2 class="project-title">R(e)-thrift</h2>
+                        <p class="project-desc">R(e)-thrift is a place for people to buy & sell lightly used goods. We offer an easy way to browse, purchase, and sell items, with or without an account. If you have an account, your shopping cart can be seen on any of your devices.</p>
+                        <p class="built-with">Built with: PostgreSQL, Node.js, Express, React, Bootstrap CSS, Stripe API</p>
+                        <a class="deployed-link" href="https://re-thrift.herokuapp.com/" target="blank">live link</a>
+                        <a class="github-link" href="https://github.com/2107-CSU/CoolCoders" target="blank">github repo</a>
+                    </section>
+                    <img src="./assets/Re-thrift-web.jpg">
+                </section>
+        </div>
+        <!--ABOUT ME SECTION-->
+        <div id="about-container">
+            <h2>About Me</h2>
+            <p>Hello! My name is Ricardo. I love designing and developing full stack applications for the modern web. I've always been deeply curious and have a passion for learning about new tools & technologies. I especially enjoy working with React and Bootstrap CSS to create elegant, and responsive experiences. When I'm not coding, I enjoy drawing & painting, working out, and watching anime.</p>
+            <p id="tech-p">Toolbox:</p>
+            <section id="tech-used">
+                <span>JavaScript,</span>
+                <span>React,</span>
+                <span>HTML,</span>
+                <span>CSS,</span>
+                <span>PostgreSQL,</span>
+                <span>Node.js,</span>
+                <span>Express,</span>
+                <span>Jest,</span>
+                <span>Git,</span>
+                <span>Heroku,</span>
+                <span>Postman</span>
+            </section>
+            <a href="./assets/RicardoMartinez_v03-01.pdf" class="link-btn" id="download-cv" download="RicardoMartinez-Resume">DOWNLOAD RESUME</a>
+        </div>
+        <!--CONTACT ME SECTION-->
+        <h2 id="contact-header">Get In Touch</h2>
+        <div id="contact-container">
+            <section id="get-in-touch">
+                <p>Let's connect, chat about your project, or simply stay in touch</p>
+                <h5>Email Me</h5>
+                <a href="mailto:RicardoMartinez.Denver@gmail.com" title="My Email Address">RicardoMartinez.Denver@gmail.com</a>
+                <h5>Socials</h5>
+                <a href="https://www.linkedin.com/in/ricardo-martinez-480680191/" target="blank"><img src="./assets/LI-In-Bug.png" alt="linkedin-logo"></a>
+                <a href="https://github.com/rmartinez809" target="blank"><img src="./assets/GitHub-Mark-Light-64px.png" alt="github-logo"></a>
+            </section>
+            <form action="https://formkeep.com/f/5c4f86690b6b" accept-charset="utf-8" enctype="multipart/form-data" method="post">
+                <label for="name">Your Name</label>
+                <input class="form-width" type="text" id="name" name="name" placeholder="Juan del Pueblo">
+                <label for="email">Email Address</label>
+                <input class="form-width" type="email" id="email-address" name="email" placeholder="you@yourdomain.com">
+                <label for="message">Message</label>
+                <textarea class="form-width" id="message" name="message" placeholder="How can I help?"></textarea>
+                <button class="form-width" type="submit">Send</button>
+            </form>
+        </div>
+        <footer>
+            <span>Built with  &#x1F499;  by Ricardo E. Martinez | © 2022</span>
+            <a href="https://www.ricardomartinez.studio/" target="_blank">check out my art</a>
+        </footer>
+    </div>
+    <script src="../src/index.js"></script>
 </body>
 </html>
