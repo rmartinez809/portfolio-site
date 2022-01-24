@@ -326,6 +326,11 @@ footer a {
     margin-top: 1rem;
   }
 
+  #projects-container img {
+    width: 600px;
+    height: auto;
+  }
+
   #contact-container {
     flex-direction: column;
   }
@@ -353,6 +358,11 @@ footer a {
   #banner-container h1 {
     width: 90%;
     font-size: 2.5rem;
+  }
+
+  #projects-container img {
+    width: 100%;
+    height: auto;
   }
 
   #links {
