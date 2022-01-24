@@ -322,6 +322,10 @@ footer a {
     flex-direction: column-reverse;
   }
 
+  .project p {
+    width: 100%;
+  }
+
   .project h2 {
     margin-top: 1rem;
   }
