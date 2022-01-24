@@ -378,6 +378,10 @@ footer a {
     font-size: 0.75rem;
   }
 
+  #get-in-touch {
+    margin-right: 0;
+  }
+
   footer {
     flex-flow: column wrap;
     justify-content: center;
