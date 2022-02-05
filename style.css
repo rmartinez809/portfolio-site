@@ -81,6 +81,9 @@ h5 {
 #progress-bar-indicator {
   height: 0.25rem;
   width: 0%;
+}
+
+.gradient {
   background: rgb(41, 52, 115);
   background: linear-gradient(
     90deg,
