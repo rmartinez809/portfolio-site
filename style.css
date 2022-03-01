@@ -153,6 +153,8 @@ h5 {
 
 .project {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 #projects-container h1 {
@@ -161,11 +163,6 @@ h5 {
 
 #projects-container img {
   border-radius: 5px;
-}
-
-.project {
-  margin-bottom: 5rem;
-  justify-content: space-between;
 }
 
 .project-title {
@@ -185,6 +182,7 @@ h5 {
 /*========== About section ==========*/
 #about-container {
   /* border: 3px green solid; */
+  display: flex;
   height: max-content;
   padding-top: 4rem;
 }
@@ -194,7 +192,7 @@ h5 {
 }
 
 #about-container p {
-  width: 50%;
+  width: 75%;
   margin-bottom: 0.5rem;
 }
 
@@ -203,12 +201,21 @@ h5 {
 }
 
 #tech-used {
+  width: 75%;
   margin-top: 0.5rem;
 }
 
 #about-container a {
   display: block;
   margin-top: 2rem;
+}
+
+#about-photo {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 15%;
+  opacity: 90%;
 }
 
 /*========== Contact section ==========*/
@@ -336,6 +343,10 @@ footer a {
   }
 
   #about-container p {
+    width: 100%;
+  }
+
+  #tech-used {
     width: 100%;
   }
 
