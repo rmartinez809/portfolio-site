@@ -182,9 +182,12 @@ h5 {
 /*========== About section ==========*/
 #about-container {
   /* border: 3px green solid; */
-  display: flex;
   height: max-content;
   padding-top: 4rem;
+}
+
+#about-flex {
+  display: flex;
 }
 
 #about-container h2 {
@@ -211,8 +214,8 @@ h5 {
 }
 
 #about-photo {
-  height: 25%;
-  width: 25%;
+  height: 320px;
+  width: 320px;
   border-radius: 50%;
   margin-right: 15%;
   opacity: 90%;
@@ -327,11 +330,6 @@ footer a {
     margin: 0 auto;
   }
 
-  /* html,
-  body {
-    overflow-x: hidden;
-  } */
-
   body {
     position: relative;
   }
@@ -365,6 +363,16 @@ footer a {
   #projects-container img {
     width: 600px;
     height: auto;
+  }
+
+  #about-flex {
+    flex-direction: column-reverse;
+  }
+
+  #about-photo {
+    margin-bottom: 2rem;
+    /* height: 50%;
+    width: 50%; */
   }
 
   #contact-container {
