@@ -130,6 +130,7 @@ h5 {
 }
 
 .gradient-text {
+  background-color: rgb(68, 94, 242);
   background: rgb(68, 94, 242);
   background: -moz-linear-gradient(
     90deg,
